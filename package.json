@@ -1,0 +1,22 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "scraper",
+  "main": "functions/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "puppeteer": "^10.2.0",
+    "puppeteer-page-proxy": "^1.2.8",
+    "puppeteer-proxy": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
