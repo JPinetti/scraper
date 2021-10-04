@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "starft deploying"
+      - yarn
+  pre_build:
+  build:
+    commands:
+      - yarn start
+  post_build:
+    commands:
+      - echo "server started succesfully"
